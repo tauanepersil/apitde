@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TDEProdutos</name>
+    </assembly>
+    <members>
+        <member name="M:TDEProdutos.Controllers.EstoqueController.DebitarEstoque(TDEProdutos.Models.ProdutoDebito)">
+            <summary>
+             Debitar o estoque dos produtos e informa quando estiver no final
+             Requer uso de token.
+             </summary>
+             <param name="produtoDebito">Id Produto</param>
+             <returns>Objeto contendo os dados de um produto.</returns>
+        </member>
+        <member name="M:TDEProdutos.Controllers.ProdutosController.BuscarPorCodigo(System.String)">
+            <summary>
+             Busca dados de um produto a partir do codigo
+             Requer uso de token.
+             </summary>
+             <param name="codigo">codigo Produto</param>
+             <returns>Objeto contendo os dados de um produto.</returns>
+        </member>
+        <member name="M:TDEProdutos.Controllers.ProdutosController.Adicionar(TDEProdutos.Models.Produto)">
+            <summary>
+             Adiciona dados de um produto no banco de dados
+             Requer uso de token.
+             </summary>
+             <param name="produto">codigo Produto</param>
+             <returns>Objeto contendo os dados de um produto.</returns>
+        </member>
+        <member name="M:TDEProdutos.Controllers.ProdutosController.Atualizar(System.String,TDEProdutos.Models.Produto)">
+            <summary>
+             Atualizar dados de um produto a partir do codigo
+             Requer uso de token.
+             </summary>
+             <param name="codigo">codigo Produto</param>
+             <returns>Objeto contendo os dados de um produto.</returns>
+        </member>
+        <member name="M:TDEProdutos.Controllers.ProdutosController.Remova(System.String)">
+            <summary>
+             Remover dados de um produto a partir do codigo
+             Requer uso de token.
+             </summary>
+             <param name="codigo">codigo Produto</param>
+             <returns>Objeto contendo os dados de um produto.</returns>
+        </member>
+        <member name="M:TDEProdutos.Controllers.UsuarioController.Authenticate(TDEProdutos.Models.Usuario)">
+            <summary>
+             autenticação de usuario
+             Requer uso de token.
+             </summary>
+             <param Usuario="Usuario">usuario usuario</param>
+             <returns>Objeto contendo os dados de um produto.</returns>
+        </member>
+    </members>
+</doc>
